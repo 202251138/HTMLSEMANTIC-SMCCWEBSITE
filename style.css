@@ -1,4 +1,4 @@
-body,h2,p,ul{
+body,p,ul{
     margin: 0;
     padding: 5px;
 }
@@ -9,7 +9,9 @@ html{
     scroll-behavior: smooth;
 }
 body{
-  background-color: rgb(230, 230, 88);
+  background-image:url(background.jpg) ;
+  background-size: 1000px;
+  background-attachment: fixed;
 }
 
 header{
@@ -19,8 +21,23 @@ header{
     text-align: center;
 }
 
+#coursesoffered{
+    background-color: darkblue;
+    text-align: center;
+    color: aliceblue;
+}
+
+#services{
+    background-color: darkblue;
+    text-align: center;
+    color: aliceblue;
+}
+
 header h1{
     margin: 0;
+}
+h2{
+    color: rgb(240, 240, 7);
 }
 
 header ul{
@@ -41,22 +58,8 @@ header a{
     color: aliceblue;
 }
 
-main{
-    padding: 20px;
-}
-
-article{
-    text-align: center;
-    padding: 20px;
-}
-
 #AboutUs img{
     border-radius: 50px;
-}
-
-section{
-    color: rgb(92, 42, 42) ;
-    padding: 10px;
 }
 
 figure{
@@ -65,20 +68,22 @@ figure{
     text-align: center;
 }
 
-@media only screen and(max-widt: 768px) {
- figure{
-    width: 100%;
- }
-}
 
 footer{
     padding: 20px;
     text-align: center;
 }
 
-#ContactUS{
+#contactus{
     text-align: center;
+    background-color: darkblue;
     padding: 20px;
+}
+
+@media only screen and(max-widt: 768px) {
+    figure{
+       width: 100%;
+}
 }
 
 a[href="#top"]{
@@ -90,3 +95,4 @@ a[href="#top"]{
     bottom: 20px;
     right: 20px;
 }
+
