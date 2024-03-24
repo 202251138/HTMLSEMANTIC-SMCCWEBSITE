@@ -85,6 +85,12 @@ body {
     text-decoration: none;
     color: aliceblue;
     }
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
     
     footer {
     padding: 10px;
