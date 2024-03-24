@@ -1,116 +1,110 @@
-body{
+body {
     text-align: center;
     color: black;
-  background-image:url(background.jpg) ;
-  background-size: 1000px;
-  background-attachment: fixed;
-}
-
-html{
+    background-image: url(background.jpg);
+    background-size: 1000px;
+    background-attachment: fixed;
+    }
+    
+    html {
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
-}
-
-p{
+    }
+    
+    p {
     backdrop-filter: contrast(0.2);
-}
-
-header{
+    }
+    
+    header {
     background-color: darkblue;
     color: aliceblue;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
     margin: 10px;
-}
-
-#services{
+    }
+    
+    #services {
     background-color: darkblue;
     text-align: center;
     border: 2px solid black;
     color: aliceblue;
     margin: 50px;
-
-}
-
-header h1{
+    }
+    
+    header h1 {
     margin: 0;
-}
-
-h2{
+    }
+    
+    h2 {
     background-color: darkblue;
     border: 2px solid black;
     padding: 5px;
     font-size: 50px;
     color: rgb(239, 239, 0);
     margin: 30px;
-}
-
-header ul{
+    }
+    
+    header ul {
     list-style: none;
-}
-
-header ul li{
+    }
+    
+    header ul li {
     display: inline;
     margin-right: 15px;
-}
-
-li a:hover{
+    }
+    
+    li a:hover {
     color: rgb(254, 250, 0);
-}
-
-li:hover{
-      color: yellow;
-}
-
-.ccje{
+    }
+    
+    li:hover {
+    color: yellow;
+    }
+    
+    .ccje {
     background-color: darkblue;
     text-align: center;
     border: 2px solid black;
     color: aliceblue;
-    padding: none;
     margin: 50px;
-
-}
-
-.it{
+    }
+    
+    .it {
     background-color: darkblue;
     text-align: center;
     border: 2px solid black;
     color: aliceblue;
-    padding: none;
-    margin: 50px;
-
-}
-
-header a{
+    margin: 50px; 
+    }
+    
+    header a {
     text-decoration: none;
     color: aliceblue;
-}
-
-footer{
+    }
+    
+    footer {
     padding: 10px;
     text-align: center;
-}
-
-#contactus{
+    }
+    
+    #contactus {
     color: aliceblue;
     text-align: center;
     background-color: darkblue;
     border: 2px solid black;
     padding: 20px;
     margin: 30px;
-
-}
-
-@media only screen and(max-width: 768px) {
-    figure{
-       width: 100%;
-}
-}
-
-a[href="#top"]{
+    }
+    
+    @media only screen and (max-width: 768px) {
+    figure {
+    width: 100%;
+    }
+    }
+    
+    a[href="#top"] {
     display: block;
     text-align: right;
     background-color: rgb(13, 29, 209);
@@ -118,6 +112,4 @@ a[href="#top"]{
     position: fixed;
     bottom: 20px;
     right: 20px;
-}
-
-
+    }
