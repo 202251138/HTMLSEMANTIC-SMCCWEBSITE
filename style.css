@@ -18,7 +18,7 @@ body{
 }
 
 p{
-    backdrop-filter: contrast(3.5);
+    backdrop-filter: contrast(5.5);
 }
 
 header{
@@ -47,7 +47,7 @@ h2{
     border: 3px solid black;
     font-size: 50px;
     color: rgb(239, 239, 0);
-    margin: 30px;
+    margin: 20px;
 }
 
 header ul{
