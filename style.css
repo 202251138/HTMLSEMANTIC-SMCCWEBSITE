@@ -16,6 +16,9 @@ body{
   background-attachment: fixed;
 }
 
+p{
+    backdrop-filter: contrast(0.5);
+}
 header{
     background-color: rgb(16, 16, 209);
     color: aliceblue;
