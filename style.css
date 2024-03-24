@@ -18,7 +18,7 @@ body{
 }
 
 p{
-    backdrop-filter: contrast(5.5);
+    backdrop-filter: contrast(0.2);
 }
 
 header{
