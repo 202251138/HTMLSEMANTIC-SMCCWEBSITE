@@ -40,7 +40,7 @@ body {
     h2 {
     background-color: darkblue;
     border: 2px solid black;
-    padding: 5px;
+    padding:0px;
     font-size: 35px;
     color: rgb(239, 239, 0);
     margin: 30px;
@@ -68,7 +68,8 @@ body {
     text-align: center;
     border: 2px solid black;
     color: aliceblue;
-    margin: 50px;
+    padding: 20px;
+    margin: 100px;
     }
     
     .it {
@@ -76,7 +77,8 @@ body {
     text-align: center;
     border: 2px solid black;
     color: aliceblue;
-    margin: 50px; 
+    padding: 20px;
+    margin: 100px; 
     }
     
     header a {
@@ -94,7 +96,7 @@ body {
     text-align: center;
     background-color: darkblue;
     border: 2px solid black;
-    padding: 20px;
+    padding: 10px;
     margin: 30px;
     }
     
