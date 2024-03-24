@@ -42,8 +42,11 @@ header h1{
     margin: 0;
 }
 h2{
+    background-color: blue;
+    border: 3px solid black;
     font-size: 50px;
     color: rgb(239, 239, 0);
+    margin: 60px;
 }
 
 header ul{
