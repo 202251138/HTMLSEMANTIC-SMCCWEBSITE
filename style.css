@@ -8,6 +8,7 @@ html{
     width: 100%;
     scroll-behavior: smooth;
 }
+
 body{
     text-align: center;
     color: black;
@@ -21,7 +22,7 @@ p{
 }
 
 header{
-    background-color: rgb(16, 16, 209);
+    background-color: darkblue;
     color: aliceblue;
     padding: 20px;
     border: 2px solid black;
@@ -42,11 +43,11 @@ header h1{
     margin: 0;
 }
 h2{
-    background-color: blue;
+    background-color: darkblue;
     border: 3px solid black;
     font-size: 50px;
     color: rgb(239, 239, 0);
-    margin: 60px;
+    margin: 30px;
 }
 
 header ul{
