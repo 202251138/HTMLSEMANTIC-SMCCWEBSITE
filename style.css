@@ -19,6 +19,7 @@ body{
 p{
     backdrop-filter: contrast(0.5);
 }
+
 header{
     background-color: rgb(16, 16, 209);
     color: aliceblue;
@@ -56,6 +57,10 @@ header ul li{
 
 li a:hover{
     color: rgb(254, 250, 0);
+}
+
+li:hover{
+      color: yellow;
 }
 
 .ccje{
