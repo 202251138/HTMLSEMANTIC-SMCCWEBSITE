@@ -24,13 +24,6 @@ header{
     text-align: center;
 }
 
-#coursesoffered{
-    background-color: darkblue;
-    text-align: center;
-    border: 2px solid black;
-    color: aliceblue;
-}
-
 #services{
     background-color: darkblue;
     text-align: center;
@@ -57,6 +50,22 @@ header ul li{
 
 li a:hover{
     color: rgb(254, 250, 0);
+}
+
+.ccje{
+    background-color: darkblue;
+    text-align: center;
+    border: 2px solid black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.it{
+    background-color: darkblue;
+    text-align: center;
+    border: 2px solid black;
+    color: aliceblue;
+    padding: 20px;
 }
 
 header a{
