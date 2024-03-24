@@ -1,5 +1,5 @@
 body,p,ul{
-    margin: 0;
+    margin: 5px;
     padding: 5px;
 }
 
@@ -13,12 +13,13 @@ body{
     text-align: center;
     color: black;
   background-image:url(background.jpg) ;
-  background-size: 1000px;
+  background-size: 800px;
   background-attachment: fixed;
 }
 
 p{
     backdrop-filter: contrast(0.2);
+    padding: 5px;
 }
 
 header{
@@ -46,10 +47,10 @@ header h1{
 h2{
     background-color: darkblue;
     border: 2px solid black;
+    padding: 5px;
     font-size: 50px;
     color: rgb(239, 239, 0);
-    padding: 5px;
-    margin: 100px;
+    margin: 30px;
 }
 
 header ul{
@@ -94,18 +95,8 @@ header a{
     color: aliceblue;
 }
 
-#AboutUs img{
-    border-radius: 50px;
-}
-
-figure{
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
-}
-
 footer{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -114,8 +105,8 @@ footer{
     text-align: center;
     background-color: darkblue;
     border: 2px solid black;
-    padding: 20px;
-    margin: 100px;
+    padding: 10px;
+    margin: 20px;
 
 }
 
